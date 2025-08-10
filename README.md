@@ -10,7 +10,8 @@ This is the first stage of the Timeline App. It uses basic HTML to create a stat
 - An empty `<div id="modal">` which will be used for pop-ups later on  
 - Basic semantic tags like `<main>`, `<article>`, and `<figure>`  
 
-##Task 2: Responsive Layout with CSS
+## Task 2: Responsive Layout with CSS
+
 This is the second stage of the Timeline App project. It builds upon the basic HTML skeleton to implement a fully responsive and visually polished layout. It includes the following features:
 
 - Responsive Timeline: Uses Flexbox or CSS Grid depending on the viewport size.
