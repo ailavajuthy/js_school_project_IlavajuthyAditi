@@ -1,0 +1,93 @@
+/*Header styling*/
+header {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2563eb;
+    color:#FFF;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+.logo{
+    font-size:1.2rem;
+    color:#FFF;
+}
+
+#themeToggle{
+    background:#FFF;
+    color:#2563eb;
+    border-radius:3px;
+    border:none;
+    font-size:1rem;
+    padding:0.3rem;
+}
+
+/*Flexbox for timeline*/
+#timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    padding:1rem;
+}
+
+/*Styling for event markers*/
+.timeline_dot {
+    width:1rem;
+    height:1rem;
+    background: #2563eb;
+    margin: 0.5rem;
+    border-radius:14px;
+}
+
+
+.timeline_label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding:0.5rem;
+  }
+
+
+/*Modal base styles*/
+  #modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    display: none;
+  }
+
+  #modal.active {
+    display: flex;
+  }
+
+  /*Responsive design*/
+  @media (max-width: 767px) {
+    #timeline {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #timeline {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #timeline {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  }
