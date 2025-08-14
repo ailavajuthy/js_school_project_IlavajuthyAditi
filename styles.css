@@ -110,7 +110,7 @@ header {
   display: block;        
   width: 100%;
   max-width: 400px;   
-  height: 250px;      
+  max-height: 250px;      
   object-fit: cover;  
   margin-bottom: 0.7rem;
   border-radius: 4px;
