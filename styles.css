@@ -4,24 +4,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2563eb;
-    color:#FFF;
+    background-color: #1E293B;
+    color:#F1F5F9;
     padding: 1rem;
     border-radius: 5px;
   }
 
 .logo{
     font-size:1.2rem;
-    color:#FFF;
+    color:#F1F5F9;
 }
 
 #themeToggle{
-    background:#FFF;
-    color:#2563eb;
+    background:#F1F5F9;
+    color:#1E293B;
     border-radius:3px;
     border:none;
     font-size:1rem;
     padding:0.3rem;
+}
+
+#themeToggle:hover{
+  color:#F1F5F9;
+  background:#3B82F6;
+  transform:scale(1.2);
 }
 
 /*Flexbox for timeline*/
@@ -31,7 +37,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 1000px;
+    margin-right:0px;
     padding:1rem;
 }
 
@@ -39,7 +45,7 @@ header {
 .timeline_dot {
     width:1rem;
     height:1rem;
-    background: #2563eb;
+    background: #3B82F6;
     margin: 0.5rem;
     border-radius:14px;
 }
@@ -48,26 +54,83 @@ header {
 .timeline_label {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size:1.5rem;
     margin: 0.5rem;
     padding:0.5rem;
+    background-color:#E2E8F0;
+    color:#1E293B;
+    border-radius: 4px;
   }
 
+  .timeline_dot:hover{
+    transform:scale(1.2);
+  }
+  .timeline_label:hover{
+    color:#FFF;
+    background-color:#3B82F6;
+  }
 
 /*Modal base styles*/
   #modal {
+    font-family: Arial, sans-serif;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: rgba(30, 41, 59, 0.9);;
     padding: 1rem;
     border-radius: 4px;
     display: none;
+    color:#FFFFFF;
+    width: 100%;
+    height: 100%;  
+    
   }
+  
 
   #modal.active {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  #modalContent {
+    background: #FFF;
+    padding: 1.5rem;
+    border-radius: 3px;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    color:#1E293B;
+    font-size:1.2rem;
+}
+
+#modalImage {
+  display: block;        
+  width: 100%;
+  max-width: 400px;   
+  height: 250px;      
+  object-fit: cover;  
+  margin-bottom: 0.7rem;
+  border-radius: 4px;
+  text-align:center;
+  margin:auto;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color:#3B82F6;
+}
+
+#closeModal:hover{
+  transform:scale(1.2);
+  color:red;
+}
 
   /*Responsive design*/
   @media (max-width: 767px) {

@@ -1,0 +1,67 @@
+[
+    {
+      "year": "1956",
+      "title": "Dartmouth Conference",
+      "description": "John McCarthy coins the term 'Artificial Intelligence' at the Dartmouth Summer Research Project on Artificial Intelligence, marking the birth of AI as a field.",
+      "imageURL": "https://plus.unsplash.com/premium_photo-1680608979589-e9349ed066d5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
+      "category": "AI History"
+    },
+    {
+      "year": "1997",
+      "title": "Deep Blue Defeats Kasparov",
+      "description": "IBM's Deep Blue defeats world chess champion Garry Kasparov, a landmark in AI's ability to outperform humans in strategic games.",
+      "imageURL": "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Game AI"
+    },
+    {
+      "year": "2006",
+      "title": "Deep Learning Resurgence",
+      "description": "Geoffrey Hinton and colleagues reignite interest in neural networks, sparking the deep learning revolution.",
+      "imageURL": "https://plus.unsplash.com/premium_photo-1681586126003-2a6d4ba943a2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV1cmFsJTIwbmV0d29ya3xlbnwwfHwwfHx8MA%3D%3D6",
+      "category": "Machine Learning"
+    },
+    {
+      "year": "2011",
+      "title": "IBM Watson Wins Jeopardy!",
+      "description": "IBM's Watson defeats Jeopardy! champions Ken Jennings and Brad Rutter, demonstrating advanced natural language processing.",
+      "imageURL": "https://www.pipelinersales.com/wp-content/uploads/2019/03/ibm-watson.jpg",
+      "category": "NLP"
+    },
+    {
+      "year": "2012",
+      "title": "ImageNet Breakthrough",
+      "description": "AlexNet, a deep convolutional neural network, wins the ImageNet competition by a huge margin, proving the power of deep learning for image recognition.",
+      "imageURL": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Computer Vision"
+    },
+    {
+      "year": "2016",
+      "title": "AlphaGo Beats Lee Sedol",
+      "description": "DeepMind's AlphaGo defeats Go champion Lee Sedol, a milestone in reinforcement learning and complex strategy AI.",
+      "imageURL": "https://cdn.zatu.com/wp-content/uploads/2017/12/18191250/Go.jpg",
+      "category": "Game AI"
+    },
+    {
+      "year": "2020",
+      "title": "GPT-3 Released",
+      "description": "OpenAI releases GPT-3, a powerful language model capable of generating human-like text and performing a variety of tasks with minimal prompting.",
+      "imageURL": "https://lh4.googleusercontent.com/3DgY99bH6RTVmkdkUeVvtLJXJX3rhhWVO9d2wHSOnP7XUyNQKO8hEFss-kgzr3aaILy3qesxi9ehVhmQ5gh27nj9Pox16DQDPi1kY-_hRFJrpts7iahLut_MvWeUg1veYW1OT_oZzVyPSIpnwLuXdIkUmO_MABrYYWElYV8f9AnMiwTpeC8H7JQJbOZiuQ",
+      "category": "NLP"
+    },
+    {
+      "year": "2022",
+      "title": "ChatGPT Launch",
+      "description": "OpenAI launches ChatGPT, making advanced conversational AI accessible to the public and sparking widespread adoption.",
+      "imageURL": "https://diplo-media.s3.eu-central-1.amazonaws.com/2025/03/openai-chatgpt-surge-deepseek.jpg",
+      "category": "Conversational AI"
+    },
+
+    {
+        "year": "2023",
+        "title": "ChatGPT Reaches 100 Million Users",
+        "description": "In early 2023, ChatGPT became the fastest-growing consumer application in history, reaching 100 million active users just two months after launch, marking a significant milestone in AI adoption.",
+        "imageURL": "https://digitalfloats.com/wp-content/uploads/2023/10/ChatGPT.jpg",
+        "category": "Milestone"
+      }
+  ]
+  
